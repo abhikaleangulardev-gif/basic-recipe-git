@@ -13,7 +13,8 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "module": "preserve"
+    "module": "ES2022",
+    "moduleResolution": "bundler"
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
@@ -22,15 +23,12 @@
     "strictTemplates": true
   },
   "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-<<<<<<< HEAD
-=======
-    },
-    {
-      "path": "./tsconfig.spec.json"
->>>>>>> feature-user
-    }
-  ]
+"references": [
+  {
+    "path": "./tsconfig.app.json"
+  },
+  {
+    "path": "./tsconfig.spec.json"
+  }
+]
 }

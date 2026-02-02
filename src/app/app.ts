@@ -5,12 +5,8 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
-<<<<<<< HEAD
   protected readonly title = signal('recipeproject');
-=======
-  protected readonly title = signal('basic-git');
->>>>>>> feature-user
 }
