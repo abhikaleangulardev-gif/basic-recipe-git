@@ -10,6 +10,6 @@ export class User {
   user: any[] = ['abhishek', 'mohit', 'reena'];
 
   constructor() {
-    this.user.forEach((u: string | any[]) => console.log(u));
+    this.user.forEach((u: any[]) => console.log(u));
   }
 }
