@@ -6,6 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "recipeproject": {
       "projectType": "application",
       "schematics": {
@@ -34,6 +35,11 @@
           "skipTests": true
         }
       },
+=======
+    "basic-git": {
+      "projectType": "application",
+      "schematics": {},
+>>>>>>> feature-user
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -87,6 +93,7 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "recipeproject:build:production"
             },
             "development": {
@@ -94,6 +101,18 @@
             }
           },
           "defaultConfiguration": "development"
+=======
+              "buildTarget": "basic-git:build:production"
+            },
+            "development": {
+              "buildTarget": "basic-git:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test"
+>>>>>>> feature-user
         }
       }
     }

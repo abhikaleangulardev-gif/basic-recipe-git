@@ -8,5 +8,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
+<<<<<<< HEAD
   protected readonly title = signal('recipeproject');
+=======
+  protected readonly title = signal('basic-git');
+>>>>>>> feature-user
 }

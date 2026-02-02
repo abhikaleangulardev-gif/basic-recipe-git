@@ -25,6 +25,12 @@
   "references": [
     {
       "path": "./tsconfig.app.json"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "path": "./tsconfig.spec.json"
+>>>>>>> feature-user
     }
   ]
 }

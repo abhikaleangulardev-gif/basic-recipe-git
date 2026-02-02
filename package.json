@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "recipeproject",
+=======
+  "name": "basic-git",
+>>>>>>> feature-user
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -29,7 +33,11 @@
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
     "@angular/router": "^21.0.0",
+<<<<<<< HEAD
     "bootstrap": "5.3",
+=======
+    "bootstrap": "4.6",
+>>>>>>> feature-user
     "font-awesome": "^4.7.0",
     "jquery": "^4.0.0",
     "rxjs": "~7.8.0",
@@ -39,6 +47,12 @@
     "@angular/build": "^21.0.2",
     "@angular/cli": "^21.0.2",
     "@angular/compiler-cli": "^21.0.0",
+<<<<<<< HEAD
     "typescript": "~5.9.2"
+=======
+    "jsdom": "^27.1.0",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
+>>>>>>> feature-user
   }
 }
